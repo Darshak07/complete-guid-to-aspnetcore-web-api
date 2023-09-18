@@ -41,11 +41,7 @@ namespace my_books.Data.Services
             }
         }
 
-        //public List<Book> GetAllBooks()
-        //{
-        //    var allBooks = _context.Books.ToList();
-        //    return allBooks;
-        //}
+
         public List<Book> GetAllBooks() => _context.Books.ToList();
 
         public BookwithAuthorsVM GetBookById(int bookID)
