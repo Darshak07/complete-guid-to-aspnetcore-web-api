@@ -20,7 +20,7 @@ namespace my_books.Data
                         DateRead = DateTime.Now.AddDays(-10),
                         Rate= 4,
                         Genre = "Autography",
-                        Author = "MinaMoto",
+                       
                         CoverUrl = "gogoAnime",
                         DateAdded = DateTime.Now
                     },
@@ -30,7 +30,7 @@ namespace my_books.Data
                         Description = "About not HardWorking and earning money etc...",
                         IsRead = false,
                         Genre = "Money",
-                        Author = "kiosaki",
+                       
                         CoverUrl = "YouTube",
                         DateAdded = DateTime.Now
                     },
@@ -40,7 +40,7 @@ namespace my_books.Data
                          Description = "About not HardWorking and earning money etc...",
                          IsRead = false,
                          Genre = "Money",
-                         Author = "kiosaki",
+                         
                          CoverUrl = "YouTube",
                          DateAdded = DateTime.Now
                      });

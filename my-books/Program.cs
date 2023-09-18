@@ -17,6 +17,8 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(conn
 
 //Configure services
 builder.Services.AddTransient<BooksService>();
+builder.Services.AddTransient<AuthorService>();
+builder.Services.AddTransient<PublisherService>();
 
 //======================
 var app = builder.Build();
@@ -33,5 +35,5 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
-AppDbInitializer.Seed(app);
+//AppDbInitializer.Seed(app);
 app.Run();
