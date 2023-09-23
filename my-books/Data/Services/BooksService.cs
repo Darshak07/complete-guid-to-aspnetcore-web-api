@@ -61,6 +61,23 @@ namespace my_books.Data.Services
 
             return _bookWithAuthors;
         }
+        public BookwithAuthorsVM GetBookByTital_Publisher(string tital,string publisher)
+        {
+            var _bookWithAuthors = _context.Books.Where(n => n.Title == tital && n.Publisher.Name==publisher).Select(book => new BookwithAuthorsVM()
+            {
+                Title = book.Title,
+                Description = book.Description,
+                IsRead = book.IsRead,
+                DateRead = (bool)book.IsRead ? book.DateRead : null,
+                Rate = (bool)book.IsRead ? book.Rate : null,
+                Genre = book.Genre,
+                CoverUrl = book.CoverUrl,
+                PublisherName = book.Publisher.Name,
+                AuthorNames = book.Book_Authors.Select(n => n.Author.FullName).ToList()
+            }).FirstOrDefault();
+
+            return _bookWithAuthors;
+        }
 
         public Book UpadateBookById(int bookId, BookVM book)
         {

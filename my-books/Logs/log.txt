@@ -1,0 +1,7 @@
+2023-09-21 13:43:38.305 +05:30 [INF] Log is working
+2023-09-21 13:44:33.727 +05:30 [INF] Log is working
+2023-09-21 13:44:42.070 +05:30 [INF] Publisher Get All Information
+2023-09-21 13:48:05.923 +05:30 [INF] Log is working
+2023-09-21 13:48:17.218 +05:30 [INF] Publisher Get All Information {@_publishersService.GetAll()}
+2023-09-21 13:50:28.710 +05:30 [INF] Log is working
+2023-09-21 13:50:41.842 +05:30 [INF] Publisher Get All Information [{"Id":4,"Name":"Added Publisher A","Books":null,"$type":"Publisher"},{"Id":6,"Name":"B Publisher","Books":null,"$type":"Publisher"},{"Id":1,"Name":"Publisher 1","Books":null,"$type":"Publisher"},{"Id":5,"Name":"Publisher 10","Books":null,"$type":"Publisher"},{"Id":3,"Name":"Publisher 3","Books":null,"$type":"Publisher"},{"Id":7,"Name":"Publisher Extra 1","Books":null,"$type":"Publisher"},{"Id":8,"Name":"Publisher Extra 2","Books":null,"$type":"Publisher"},{"Id":9,"Name":"Publisher Extra 3","Books":null,"$type":"Publisher"},{"Id":10,"Name":"Publisher Extra 4","Books":null,"$type":"Publisher"},{"Id":11,"Name":"Publisher Extra 5","Books":null,"$type":"Publisher"}]
